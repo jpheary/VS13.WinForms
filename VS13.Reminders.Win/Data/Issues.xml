@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes"?>
+<IssueDataset xmlns="http://tempuri.org/IssueDataset.xsd">
+  <xs:schema id="IssueDataset" targetNamespace="http://tempuri.org/IssueDataset.xsd" xmlns:mstns="http://tempuri.org/IssueDataset.xsd" xmlns="http://tempuri.org/IssueDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="IssueDataset" msdata:IsDataSet="true" msdata:Locale="">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="IssueTable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Subject" type="xs:string" minOccurs="0" />
+                <xs:element name="Company" type="xs:string" minOccurs="0" />
+                <xs:element name="Contact" type="xs:string" minOccurs="0" />
+                <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <IssueTable>
+    <ID>50001</ID>
+    <Subject>Truck Broke Down</Subject>
+    <Company>ABC Trucking Inc.</Company>
+    <Contact>Jeffrey</Contact>
+    <Comment>Agent has a truck that is broken down and the service department is unable to repair it. Deliveries will be affected.</Comment>
+  </IssueTable>
+  <IssueTable>
+    <ID>50002</ID>
+    <Subject>Address Change</Subject>
+    <Company>College Bookstores</Company>
+    <Contact>Eric</Contact>
+    <Comment>Billing address changed; please contact HO.</Comment>
+  </IssueTable>
+  <IssueTable>
+    <ID>50003</ID>
+    <Subject>Driver Sick</Subject>
+    <Company>XYZ Logistics</Company>
+    <Contact>Michael</Contact>
+    <Comment>Due to high volume and drivers sick/hurt we are not going to be able to deliver today</Comment>
+  </IssueTable>
+  <IssueTable>
+    <ID>50004</ID>
+    <Subject>Cannot Take Friday Delivery</Subject>
+    <Company>Tuesday's Restaraunt</Company>
+    <Contact>Chris</Contact>
+    <Comment>Chris called in from the restaraunt, stated they cannot take thier Friday delivery;  stated they can take it on Tuesday.</Comment>
+  </IssueTable>
+  <IssueTable>
+    <ID>50005</ID>
+    <Subject>Carton Shortage</Subject>
+    <Company>Big Boss Outlets</Company>
+    <Contact>Andy</Contact>
+    <Comment>Please advise when the carton# 1002348764 will be delivered.</Comment>
+  </IssueTable>
+  <IssueTable>
+    <ID>50006</ID>
+    <Subject>Linehaul Delayed</Subject>
+    <Company>Keep On Trucking</Company>
+    <Contact>Brett</Contact>
+    <Comment>Thursday's freight will not be delivered due to heavy traffic. This freight will be delivered on Friday.</Comment>
+  </IssueTable>
+  <IssueTable>
+    <ID>50007</ID>
+    <Subject>Refusing Shipment</Subject>
+    <Company>American Cannery</Company>
+    <Contact>Alex</Contact>
+    <Comment>Store is refusing the delivery.  It is large and they need to accept it.  Driver is waiting; please advise</Comment>
+  </IssueTable>
+</IssueDataset>
